@@ -2,6 +2,13 @@
 This repository makes it easy to build Rocky-8.5 RPMs for leftwm and some handy tools for a full configuration
 
 ## Packages
+ * [LeftWM](#leftwm)
+ * [Dunst](#dunst)
+ * [Feh](#feh)
+ * [Picom](#picom)
+ * [Polybar](#polybar)
+ * [Slock](#slock)
+ * [Scrot](#scrot)
 
 ### [LeftWM](https://github.com/leftwm/leftwm)
 The actual window manager
@@ -15,7 +22,7 @@ source ~/.bashr
 ```
 
 ### [Dunst](https://dunst-project.org/)
-Notifications
+dunst - A customizable and lightweight notification-daemon
 
 
 ### [Feh](https://feh.finalrewind.org/)
