@@ -92,3 +92,6 @@ sudo /usr/bin/pip3 install sphinx
 
 ### [Slock](https://tools.suckless.org/slock/)
 Simple X display locker. This is the simplest X screen locker we are aware of. It is stable and quite a lot of people in our community are using it every day when they are out with friends or fetching some food from the local pub.
+
+### [Scrot](https://github.com/resurrecting-open-source-projects/scrot/)
+scrot is a simple command line screen capture utility, it uses imlib2 to grab and save images.
