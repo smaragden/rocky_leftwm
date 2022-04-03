@@ -9,7 +9,7 @@ fi
 SPEC=${1}
 NAME=$(basename $SPEC | cut -d '.' -f 1)
 cd /host
-PATCHES=$(ls specs/${NAME}*.patch 2>/dev/null || echo "" 2>&1)
+PATCHES=$(ls specs/${NAME}*.patch 2>/dev/null || echo "")
 rpmdev-setuptree
 for patch in $PATCHES
 do
