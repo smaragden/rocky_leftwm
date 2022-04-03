@@ -1,6 +1,12 @@
 # LeftWM RPMs
 This repository makes it easy to build Rocky-8.5 RPMs for leftwm and some handy tools for a full configuration
 
+## Quickstart
+```console
+make
+```
+This should create a bunch of RPMs in a subfolder called RPM
+
 ## Packages
  * [LeftWM](#leftwm)
  * [Dunst](#dunst)
